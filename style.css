@@ -147,3 +147,20 @@ nav ul li a {
     color: #474747;
     font-size: 18px;
 }
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-name {
+    font-size: 20px;
+    color: #757575;
+    text-align: center;
+}
+
+.details {
+    text-align: center;
+    color: #474747;
+    font-size: 20px;
+}
