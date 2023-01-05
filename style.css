@@ -63,7 +63,7 @@
     background-color: #FFF8F3;
     background-image: url(images/header_bg.png), url(images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right, left bottom;
+    background-position: bottom right, left;
 }
 
 nav {
@@ -163,4 +163,41 @@ nav ul li a {
     text-align: center;
     color: #474747;
     font-size: 20px;
+}
+
+/* what i do section */
+.what-i-do {
+    margin-bottom: 130px;
+}
+
+.do-description {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.skills-cart div.row {
+    gap: 24px;
+}
+
+.skills-items {
+    width: 267px;
+    padding: 33px;
+    box-shadow: 0 6px 50px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.skills-items img {
+    margin-bottom: 30px;
+}
+
+.skills-items h2 {
+    font-size: 20px;
+    color: #474747;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.skills-items p {
+    color: #757575;
+    font-size: 1rem;
 }
